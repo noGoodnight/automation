@@ -48,19 +48,16 @@ public class ScopeBuilder {
         }
 
         for (String path : paths) {
-            File tempFile;
-            if(path.endsWith(".class")) {
-                tempFile = new File(root + "/" + path);
-            }else {
-                continue;
-            }
+            File tempFile = new File(root + "/" + path);
             if (tempFile.isDirectory()) {
                 ArrayList<File> temp = getFiles(root + "/" + path);
                 if (temp != null) {
                     result.addAll(temp);
                 }
             } else {
-                result.add(tempFile);
+                if(path.endsWith(".class")) {
+                    result.add(tempFile);
+                }
             }
         }
 

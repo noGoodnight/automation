@@ -12,10 +12,10 @@ public class CentralNodeTest {
     public void classChangeInfo0Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "../Data/0-CMD/target",
-                    "../Data/0-CMD/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/0-CMD/data/selection-class.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -42,10 +42,10 @@ public class CentralNodeTest {
     public void methodChangeInfo0Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-m",
-                    "../Data/0-CMD/target",
-                    "../Data/0-CMD/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/0-CMD/data/selection-method.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/data/selection-method.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -72,11 +72,11 @@ public class CentralNodeTest {
     public void classChangeInfo1Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "../Data/1-ALU/target",
-                    "../Data/1-ALU/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/data/change_info.txt"});
 
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/1-ALU/data/selection-class.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -103,10 +103,10 @@ public class CentralNodeTest {
     public void methodChangeInfo1Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-m",
-                    "../Data/1-ALU/target",
-                    "../Data/1-ALU/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/1-ALU/data/selection-method.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/data/selection-method.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -133,10 +133,10 @@ public class CentralNodeTest {
     public void classChangeInfo2Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "../Data/2-DataLog/target",
-                    "../Data/2-DataLog/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/2-DataLog/data/selection-class.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -163,10 +163,10 @@ public class CentralNodeTest {
     public void methodChangeInfo2Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-m",
-                    "../Data/2-DataLog/target",
-                    "../Data/2-DataLog/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/2-DataLog/data/selection-method.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/data/selection-method.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -193,10 +193,10 @@ public class CentralNodeTest {
     public void classChangeInfo3Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "../Data/3-BinaryHeap/target",
-                    "../Data/3-BinaryHeap/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/3-BinaryHeap/data/selection-class.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -223,10 +223,10 @@ public class CentralNodeTest {
     public void methodChangeInfo3Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-m",
-                    "../Data/3-BinaryHeap/target",
-                    "../Data/3-BinaryHeap/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/3-BinaryHeap/data/selection-method.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/data/selection-method.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -253,10 +253,10 @@ public class CentralNodeTest {
     public void classChangeInfo4Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "../Data/4-NextDay/target",
-                    "../Data/4-NextDay/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/4-NextDay/data/selection-class.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -283,10 +283,10 @@ public class CentralNodeTest {
     public void methodChangeInfo4Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-m",
-                    "../Data/4-NextDay/target",
-                    "../Data/4-NextDay/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/4-NextDay/data/selection-method.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/data/selection-method.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -313,10 +313,10 @@ public class CentralNodeTest {
     public void classChangeInfo5Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "../Data/5-MoreTriangle/target",
-                    "../Data/5-MoreTriangle/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/5-MoreTriangle/data/selection-class.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
@@ -343,10 +343,10 @@ public class CentralNodeTest {
     public void methodChangeInfo5Test() {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-m",
-                    "../Data/5-MoreTriangle/target",
-                    "../Data/5-MoreTriangle/data/change_info.txt"});
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/target",
+                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/data/change_info.txt"});
             BufferedReader bufferedReader = new BufferedReader(
-                    new FileReader("../Data/5-MoreTriangle/data/selection-method.txt"));
+                    new FileReader("C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/data/selection-method.txt"));
             ArrayList<String> infos = new ArrayList<>();
             String info;
 
