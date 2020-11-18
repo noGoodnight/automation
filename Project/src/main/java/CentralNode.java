@@ -221,7 +221,7 @@ public class CentralNode {
         Runtime run;
         String command;
 
-        String name = this.projectName + "-class";
+        String name = this.projectName + "-method";
         path = "../Report/" + name + ".dot";
         methodDotFile = new FileWriter(path);
         content = "";
