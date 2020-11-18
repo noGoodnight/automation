@@ -1,5 +1,7 @@
 ### Project ###
+META-INF
 Data
+out
 *.pdf
 *.doc
 *.docx

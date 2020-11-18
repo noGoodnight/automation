@@ -14,7 +14,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
-import java.util.concurrent.ExecutionException;
 
 public class CentralNode {
     ArrayList<ClassNode> classNodes;
@@ -32,11 +31,8 @@ public class CentralNode {
     String projectName = "";
 
     public static void main(String[] args) {
-        args = new String[]{"-c",
-                "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/target",
-                "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/data/change_info.txt"};
         try {
-            new CentralNode(args).go();
+            new CentralNode(args);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -57,8 +53,13 @@ public class CentralNode {
         this.changeInfos = this.getChangeInfo();
         this.changeClassNodes = new ArrayList<>();
         this.changeMethodNodes = new ArrayList<>();
-        String[] temp = this.args[1].split("/");
-        this.projectName = temp[temp.length - 2];
+        try {
+            String[] temp = this.args[1].split("/");
+            this.projectName = temp[temp.length - 2];
+        }catch (Exception e){
+            String[] temp = this.args[1].split("\\\\");
+            this.projectName = temp[temp.length - 2];
+        }
 
         try {
             go();

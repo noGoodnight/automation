@@ -74,6 +74,7 @@ public class CentralNodeTest {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/1-ALU/target",
                     "../Data/1-ALU/data/change_info.txt"});
+
             BufferedReader bufferedReader = new BufferedReader(
                     new FileReader("../Data/1-ALU/data/selection-class.txt"));
             ArrayList<String> infos = new ArrayList<>();
