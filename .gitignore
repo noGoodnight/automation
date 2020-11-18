@@ -2,9 +2,9 @@
 META-INF
 Data
 out
-*.pdf
-*.doc
-*.docx
+# *.pdf
+# *.doc
+# *.docx
 
 ### Demo ###
 selection-method.txt

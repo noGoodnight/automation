@@ -1,0 +1,12 @@
+digraph cmd_class {
+    "LScopeBuilder" -> "LCentralNode";
+    "LScopeBuilder" -> "LScopeBuilderTest";
+    "LCentralNode" -> "LCentralNodeDotFileTest";
+    "LCentralNode" -> "LCentralNode";
+    "LMethodNode" -> "LCentralNode";
+    "LMethodNode" -> "LClassNode";
+    "LCentralNode" -> "LCentralNodeTest";
+    "LClassNode" -> "LCentralNode";
+    "LScopeBuilder" -> "LScopeBuilder";
+    "LJarPackageTest" -> "LJarPackageTest";
+}

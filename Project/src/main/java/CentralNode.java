@@ -117,6 +117,9 @@ public class CentralNode {
         }
         this.classDotSentences.add("}");
         this.methodDotSentences.add("}");
+        if(this.args[2].equals("noChange")){
+            return;
+        }
         if (this.args[0].equals("-c")) {
             this.classChangeInfo();
         } else if (this.args[0].equals("-m")) {
@@ -212,7 +215,7 @@ public class CentralNode {
         }
         classDotFile.write(content);
         classDotFile.close();
-//        run.exec("cmd.exe /c " + command);
+        run.exec("cmd.exe /c " + command);
     }
 
     public void methodDotFileBuilder() throws IOException {
@@ -234,10 +237,11 @@ public class CentralNode {
         }
         methodDotFile.write(content);
         methodDotFile.close();
-//        run.exec("cmd.exe /c " + command);
+        run.exec("cmd.exe /c " + command);
     }
 
     public ArrayList<String> getChangeInfo() throws IOException {
+        if(this.args[2].equals("noChange")){return null;}
         ArrayList<String> changeInfos;
         BufferedReader fileReader;
         String changeInfo;

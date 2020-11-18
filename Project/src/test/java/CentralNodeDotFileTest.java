@@ -6,7 +6,7 @@ public class CentralNodeDotFileTest {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/0-CMD/target",
-                    "../Data/0-CMD/data/change_info.txt"});
+                    "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
         }catch (Exception e){
@@ -19,7 +19,7 @@ public class CentralNodeDotFileTest {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/1-ALU/target",
-                    "../Data/1-ALU/data/change_info.txt"});
+                    "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
         }catch (Exception e){
@@ -32,7 +32,7 @@ public class CentralNodeDotFileTest {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/2-DataLog/target",
-                    "../Data/2-DataLog/data/change_info.txt"});
+                    "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
         }catch (Exception e){
@@ -45,7 +45,7 @@ public class CentralNodeDotFileTest {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/3-BinaryHeap/target",
-                    "../Data/3-BinaryHeap/data/change_info.txt"});
+                    "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
         }catch (Exception e){
@@ -58,7 +58,7 @@ public class CentralNodeDotFileTest {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/4-NextDay/target",
-                    "../Data/4-NextDay/data/change_info.txt"});
+                    "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
         }catch (Exception e){
@@ -71,7 +71,20 @@ public class CentralNodeDotFileTest {
         try {
             CentralNode centralNode = new CentralNode(new String[]{"-c",
                     "../Data/5-MoreTriangle/target",
-                    "../Data/5-MoreTriangle/data/change_info.txt"});
+                    "noChange"});
+            centralNode.classDotFileBuilder();
+            centralNode.methodDotFileBuilder();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void CentralNodeDotFileBuilderOwn(){
+        try{
+            CentralNode centralNode = new CentralNode(new String[]{"-c",
+                    "./target",
+                    "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
         }catch (Exception e){
