@@ -6,6 +6,10 @@ out
 *.doc
 *.docx
 
+### Demo ###
+selection-method.txt
+selection-class.txt
+
 ### Maven ###
 target
 
