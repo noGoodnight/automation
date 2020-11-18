@@ -3,9 +3,10 @@ import org.junit.Test;
 public class CentralNodeDotFileTest {
     @Test
     public void CentralNodeDotFileBuilder0() {
-        try {
+        try{
+            String init = CentralNode.rootPath;
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/0-CMD/target",
+                    CentralNode.rootPath.substring(0,CentralNode.rootPath.length()-7) + "Data/0-CMD/target",
                     "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
@@ -17,8 +18,9 @@ public class CentralNodeDotFileTest {
     @Test
     public void CentralNodeDotFileBuilder1() {
         try {
+            String init = CentralNode.rootPath;
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/1-ALU/target",
+                    CentralNode.rootPath.substring(0,CentralNode.rootPath.length()-7)+"Data/1-ALU/target",
                     "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
@@ -30,8 +32,9 @@ public class CentralNodeDotFileTest {
     @Test
     public void CentralNodeDotFileBuilder2() {
         try {
+            String init = CentralNode.rootPath;
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/2-DataLog/target",
+                    CentralNode.rootPath.substring(0,CentralNode.rootPath.length()-7)+"Data/2-DataLog/target",
                     "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
@@ -43,8 +46,9 @@ public class CentralNodeDotFileTest {
     @Test
     public void CentralNodeDotFileBuilder3() {
         try {
+            String init = CentralNode.rootPath;
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/3-BinaryHeap/target",
+                    CentralNode.rootPath.substring(0,CentralNode.rootPath.length()-7)+"Data/3-BinaryHeap/target",
                     "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
@@ -56,8 +60,9 @@ public class CentralNodeDotFileTest {
     @Test
     public void CentralNodeDotFileBuilder4() {
         try {
+            String init = CentralNode.rootPath;
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/4-NextDay/target",
+                    CentralNode.rootPath.substring(0,CentralNode.rootPath.length()-7)+"Data/4-NextDay/target",
                     "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();
@@ -69,8 +74,9 @@ public class CentralNodeDotFileTest {
     @Test
     public void CentralNodeDotFileBuilder5() {
         try {
+            String init = CentralNode.rootPath;
             CentralNode centralNode = new CentralNode(new String[]{"-c",
-                    "C:/南大软院/自动化/大作业/自动化测试实践/经典大作业/automation/Data/5-MoreTriangle/target",
+                    CentralNode.rootPath.substring(0,CentralNode.rootPath.length()-7)+"Data/5-MoreTriangle/target",
                     "noChange"});
             centralNode.classDotFileBuilder();
             centralNode.methodDotFileBuilder();

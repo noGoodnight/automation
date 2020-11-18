@@ -29,6 +29,7 @@ public class CentralNode {
     ArrayList<ClassNode> changeClassNodes;
     ArrayList<MethodNode> changeMethodNodes;
     String projectName = "";
+    static String rootPath = System.getProperty("user.dir");
 
     public static void main(String[] args) {
         try {
