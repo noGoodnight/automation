@@ -5,10 +5,10 @@ import org.junit.Test;
 import java.io.IOException;
 
 public class ScopeBuilderTest {
-    @Test
-    public void scopeBuilderTest() throws IOException, InvalidClassFileException {
-        AnalysisScope scope = new ScopeBuilder("../Data/0-CMD/target").getScope();
-        System.out.println(scope);
-        System.out.println("Done!");
-    }
+    // @Test
+    // public void scopeBuilderTest() throws IOException, InvalidClassFileException {
+    //     AnalysisScope scope = new ScopeBuilder("../Data/0-CMD/target").getScope();
+    //     System.out.println(scope);
+    //     System.out.println("Done!");
+    // }
 }
