@@ -59,7 +59,7 @@
                             <addClasspath>true</addClasspath>
                             <useUniqueVersions>false</useUniqueVersions>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>TestSelection</mainClass>
+                            <mainClass>CentralNode</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
