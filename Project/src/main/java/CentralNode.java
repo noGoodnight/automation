@@ -211,7 +211,7 @@ public class CentralNode {
         }
         classDotFile.write(content);
         classDotFile.close();
-        run.exec("cmd.exe /c " + command);
+//        run.exec("cmd.exe /c " + command);
     }
 
     public void methodDotFileBuilder() throws IOException {
@@ -233,7 +233,7 @@ public class CentralNode {
         }
         methodDotFile.write(content);
         methodDotFile.close();
-        run.exec("cmd.exe /c " + command);
+//        run.exec("cmd.exe /c " + command);
     }
 
     public ArrayList<String> getChangeInfo() throws IOException {
