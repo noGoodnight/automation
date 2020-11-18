@@ -1,7 +1,6 @@
 ### Project ###
 META-INF
 Data
-out
 # *.pdf
 # *.doc
 # *.docx
@@ -12,6 +11,7 @@ selection-class.txt
 
 ### Maven ###
 target
+out
 
 ### IDEA ###
 .idea
